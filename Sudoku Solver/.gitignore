@@ -1,0 +1,20 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+venv/
+.env
+
+# Output artifacts
+output/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Distribution
+build/
+dist/
+*.egg-info/
