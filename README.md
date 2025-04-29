@@ -1,13 +1,27 @@
-# Sudoku-Textract
-Sudoku-Textract is an advanced tool that leverages AWS Textract to extract Sudoku puzzles from images and solve them efficiently. This project provides a seamless way to digitize and solve Sudoku puzzles using the power of computer vision and cloud-based text extraction.
+# Sudoku Solver & Extractor
 
-Features:
+A two-step pipeline that:
 
-Image Input: Capture or upload an image of a Sudoku puzzle.
+1. **Extracts** digits from a Sudoku photo using AWS Textract  
+2. **Solves** the puzzle via backtracking  
 
-AWS Textract Integration: Automatically extract Sudoku grid numbers from the image.
+Ideal for automating Sudoku-solving workflows on the cloud.
 
-Sudoku Solver: Solve the extracted Sudoku puzzle using a backtracking algorithm instantly.
+---
 
-User Interface: Interactive and easy-to-use web-based interface.
+## Features
 
+- **AWS Textract** integration for robust OCR  
+- Pre-processing (contrast, blur, binarization) to boost recognition accuracy  
+- Clean, modular codebase: separate `extractor` and `solver` modules  
+- CLI entry-points & importable package  
+- Example puzzles in `resources/` and outputs in `output/`  
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/yourusername/sudoku-solver.git
+cd sudoku-solver
+pip install -r requirements.txt
