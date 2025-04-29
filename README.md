@@ -22,6 +22,6 @@ Ideal for automating Sudoku-solving workflows on the cloud.
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/sudoku-solver.git
+git clone https://github.com/anthonyhana04/sudoku-solver.git
 cd sudoku-solver
 pip install -r requirements.txt
